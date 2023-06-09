@@ -153,19 +153,6 @@ nav{
 .section--title{
     font-weight:400;
 }
-@media screen and (max-width: 770px) {
-    .popular--head {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .popular--icon--text {
-        font-size: 16px;
-    }
-    .popular--head h1{
-        font-size: 30px;
-    }
-}
 .popular--card{
     min-width: 370px;
     scroll-snap-align: start;
@@ -221,4 +208,23 @@ nav{
 .icon-size{
     width: 20px;
     height: 24px;
+}
+@media screen and (max-width: 770px) {
+    .popular--head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .popular--icon--text {
+        font-size: 16px;
+    }
+
+    .popular--head h1 {
+        font-size: 30px;
+    }
+
+    .popular--card {
+        min-width: 100%;
+    }
 }
