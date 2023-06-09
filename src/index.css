@@ -1,0 +1,41 @@
+:root {
+  font-family: system-ui;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #1f2022;
+  color: white;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.contain{
+    padding-inline: 10%;
+}
+@font-face {
+    font-family: 'qochy';
+    src: url('./assets/qochy-font/QochyDemoRegular-MVrOn.ttf');
+}
+@media screen and (max-width: 768px) {
+    .contain {
+        padding: 2em;
+    }
+}
+@media screen and (max-width: 1400px) {
+    h1{
+        font-size: 46px;
+    }
+}
