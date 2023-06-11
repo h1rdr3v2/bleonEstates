@@ -1,7 +1,7 @@
 import React from "react"
 import CustomButton from "../CustomButton"
 import img_1 from "../../assets/img/img-1.jpg"
-
+import "./index.css"
 const Header = () => {
 	return (
 		<header className="contain">

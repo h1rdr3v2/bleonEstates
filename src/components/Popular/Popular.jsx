@@ -1,7 +1,7 @@
 import React from "react"
 import SectionHeader from "../SectionHeader/SectionHeader"
 import HouseCard from "./HouseCard"
-
+import "./index.css"
 const Popular = () => {
 	return (
 		<section className="popular contain">

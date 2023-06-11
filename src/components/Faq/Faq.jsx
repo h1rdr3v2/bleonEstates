@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import "./index.css"
 
 const Faq = () => {
 	const [activeIndex, setActiveIndex] = useState(null)

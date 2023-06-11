@@ -1,6 +1,6 @@
 import React from "react"
 import FindsCard from "./FindsCard"
-
+import "./index.css"
 const WhatWeDo = () => {
 	return (
 		<section className="finds contain">

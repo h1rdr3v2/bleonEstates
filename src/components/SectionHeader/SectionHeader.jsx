@@ -1,5 +1,5 @@
 import React from "react"
-
+import "./index.css"
 const SectionHeader = ({ title, header, description = "" }) => {
 	return (
 		<div className="section--header">
