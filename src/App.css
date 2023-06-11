@@ -7,7 +7,7 @@
     padding-block: 0.5em;
     color: white;
 }
-.btn:hover{
+.btn:hover, .btn_primary{
     background-color: #2289ff;
     border-color: #2289ff;
 }

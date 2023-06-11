@@ -1,9 +1,9 @@
 import React from "react"
 
-const CustomButton = ({ text }) => {
+const CustomButton = ({ text, type = "" }) => {
 	return (
 		<>
-			<button className="btn">{text}</button>
+			<button className={`btn btn_${type}`}>{text}</button>
 		</>
 	)
 }

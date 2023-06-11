@@ -21,6 +21,14 @@ const Faq = () => {
 			faq: "How Big Is An Acre?",
 			answer: "You can build equity in three ways. First (and easiest) is from market appreciation. Second, when making your monthly mortgage payment, try to send a little bit more.",
 		},
+		{
+			faq: "What are closing costs?",
+			answer: "You can build equity in three ways. First (and easiest) is from market appreciation. Second, when making your monthly mortgage payment, try to send a little bit more.",
+		},
+		{
+			faq: "What is title insurance?",
+			answer: "You can build equity in three ways. First (and easiest) is from market appreciation. Second, when making your monthly mortgage payment, try to send a little bit more.",
+		},
 	]
 	return (
 		<section className="faq contain">
