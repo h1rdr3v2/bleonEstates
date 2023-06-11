@@ -5,7 +5,7 @@ const Divider = () => {
 		divider: {
 			height: 100,
 			width: "100%",
-			backgroundColor: "white",
+			backgroundColor: "#fefefe",
 		},
 	}
 	return <div style={styles.divider} className="linedivider"></div>
