@@ -5,7 +5,6 @@ const FindsCard = () => {
 		<div className="finds--card">
 			<div className="finds--card-svg">
 				<svg
-					class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiBox-root css-uqopch"
 					focusable="false"
 					aria-hidden="true"
 					viewBox="0 0 24 24"

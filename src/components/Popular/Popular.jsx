@@ -21,9 +21,9 @@ const Popular = () => {
 								<path
 									d="M15.5282 1.41553L19.5282 5.41553M19.5282 5.41553L15.5282 9.41553M19.5282 5.41553H1.5282"
 									stroke="white"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 								/>
 							</svg>
 						</span>
